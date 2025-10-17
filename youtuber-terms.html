@@ -1,0 +1,1164 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>
+      YouTube依存型の収益モデルから脱却できる新ファンコミュニティ作成サービス | 忍者ホームページPLUS
+    </title>
+    <meta
+      name="description"
+      content="プラットフォームに振り回されるのは、もう終わり。売上の90%があなたの手元に残る、YouTuberにお勧めなオンラインサロン作成サービス。"
+    />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+    <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png" />
+
+    <!-- OGP -->
+
+    <meta
+      property="og:title"
+      content="YouTube依存型の収益モデルから脱却できる新ファンコミュニティ作成サービス | 忍者ホームページPLUS"
+    />
+    <meta
+      property="og:description"
+      content="規約変更に怯えない、自分だけのファンサロン。売上の90%があなたの手元に。"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://info.ninja.salon/youtuber-terms.html" />
+
+    <meta property="og:image" content="./assets/ogp.jpg" />
+
+    <meta property="og:site_name" content="忍者ホームページPLUS" />
+    <meta property="og:locale" content="ja_JP" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="YouTube依存型の収益モデルから脱却できる新ファンコミュニティ作成サービス | 忍者ホームページPLUS"
+    />
+    <meta
+      name="twitter:description"
+      content="規約変更に怯えない、自分だけのファンサロン。売上の90%が利益に。"
+    />
+
+    <meta name="twitter:image" content="./assets/ogp.jpg" />
+
+    <style>
+      @font-face {
+        font-family: "corporate-logo-ver2";
+        src: url("/assets/fonts/corporate-Logo-Bold-ver3.otf") format("opentype");
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      :root {
+        --bg: #f8f9fa;
+        --fg: #191c36;
+        --accent: #ff6a3d;
+        --muted: #6c757d;
+        --secondary: #fff3e0;
+        --maxw: 1080px;
+        --radius: 16px;
+        --font-heading: "corporate-logo-ver2", sans-serif;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html {
+        background: var(--bg);
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        background: transparent;
+        color: var(--fg);
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+          "Noto Sans", "Noto Sans JP", sans-serif;
+        line-height: 1.75;
+        position: relative;
+        min-height: 100vh;
+      }
+
+      html {
+        background-image: url("./assets/yahho.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+      }
+      html::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: var(--bg);
+        opacity: 0.92;
+        z-index: -1;
+        pointer-events: none;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+      }
+      a {
+        color: inherit;
+        transition: opacity 0.2s;
+      }
+      a:hover {
+        opacity: 0.8;
+      }
+
+      .wrap {
+        max-width: var(--maxw);
+        margin: 0 auto;
+        padding: clamp(20px, 5vw, 60px);
+      }
+
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(30px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      section {
+        padding: clamp(40px, 8vw, 80px) 0;
+      }
+      section:not(:last-child) {
+        border-bottom: 1px solid color-mix(in oklab, var(--fg) 10%, transparent);
+      }
+
+      section.problems h2::after {
+        background: var(--problems-accent, var(--accent));
+      }
+      section.problems .card:hover {
+        border-color: var(--problems-accent, var(--accent));
+      }
+
+      section.solution {
+        margin-bottom: clamp(40px, 8vw, 80px);
+      }
+
+      section.hero {
+        margin: -40px -60px 0;
+        padding: clamp(60px, 10vw, 100px) clamp(20px, 5vw, 60px);
+        border-bottom: none;
+      }
+
+      @media (max-width: 640px) {
+        section.hero {
+          margin: 0 -15px 0 -15px;
+          padding: 30px 15px;
+        }
+      }
+
+      h1 {
+        margin: 0 0 1rem;
+        font-size: clamp(24px, 5vw, 52px);
+        line-height: 1.3;
+        font-weight: 800;
+        font-family: var(--font-heading);
+      }
+      h2 {
+        margin: 0 0 1rem;
+        font-size: clamp(20px, 4vw, 38px);
+        line-height: 1.4;
+        font-weight: 700;
+        font-family: var(--font-heading);
+        position: relative;
+        padding-bottom: 1rem;
+      }
+      h2::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 60px;
+        height: 4px;
+        background: var(--accent);
+        border-radius: 2px;
+      }
+      h2.text-left::after {
+        left: 0;
+        transform: translateX(0);
+      }
+      h3 {
+        margin: 0 0 0.8rem;
+        font-size: clamp(18px, 3.2vw, 28px);
+        line-height: 1.4;
+        font-weight: 700;
+        font-family: var(--font-heading);
+      }
+      h4 {
+        margin: 0 0 0.5rem;
+        font-size: clamp(16px, 2.5vw, 22px);
+        line-height: 1.5;
+        font-weight: 600;
+      }
+
+      p {
+        margin: 0 0 1rem;
+        line-height: 1.8;
+      }
+      ul,
+      ol {
+        margin: 0 0 1rem;
+        padding-left: 1.5em;
+        line-height: 1.8;
+      }
+      li {
+        margin: 0.3rem 0;
+      }
+
+      .muted {
+        color: var(--muted);
+      }
+      .text-center {
+        text-align: center;
+      }
+
+      .btn {
+        display: inline-block;
+        padding: 1rem 2rem;
+        border-radius: 999px;
+        background: var(--accent);
+        color: #fff;
+        font-weight: 700;
+        text-decoration: none;
+        font-size: clamp(16px, 2.5vw, 18px);
+        box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+        transition:
+          transform 0.2s,
+          box-shadow 0.2s;
+      }
+      .btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+        opacity: 1;
+      }
+
+      .card {
+        background: #fff;
+        border-radius: var(--radius);
+        padding: clamp(20px, 4vw, 32px);
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+        transition:
+          transform 0.3s ease,
+          box-shadow 0.3s ease,
+          border-color 0.3s ease;
+        border: 2px solid transparent;
+      }
+      .card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+        border-color: var(--accent);
+      }
+
+      .card-secondary {
+        background: var(--secondary);
+        border-radius: var(--radius);
+        padding: clamp(20px, 4vw, 32px);
+      }
+
+      .grid {
+        display: grid;
+        gap: clamp(16px, 3vw, 32px);
+      }
+      .grid-2 {
+        grid-template-columns: 1fr;
+      }
+      .grid-3 {
+        grid-template-columns: 1fr;
+      }
+      .grid-4 {
+        grid-template-columns: 1fr;
+      }
+
+      @media (min-width: 640px) {
+        .grid-2 {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        .grid-3 {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        .grid-4 {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+
+      @media (min-width: 960px) {
+        .grid-3 {
+          grid-template-columns: repeat(3, 1fr);
+        }
+        .grid-4 {
+          grid-template-columns: repeat(4, 1fr);
+        }
+      }
+
+      .feature-icon {
+        width: clamp(60px, 10vw, 100px);
+        height: clamp(60px, 10vw, 100px);
+        font-size: clamp(48px, 8vw, 72px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1rem;
+      }
+
+      .func-icon-wrapper {
+        position: relative;
+        margin-bottom: 1rem;
+      }
+      .func-icon-wrapper img {
+        width: 100%;
+        height: auto;
+        max-width: 300px;
+        margin: 0 auto;
+        display: block;
+      }
+      .func-icon-wrapper h4,
+      .func-icon-wrapper p {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+      }
+
+      .step-number {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: clamp(40px, 7vw, 56px);
+        height: clamp(40px, 7vw, 56px);
+        background: var(--accent);
+        color: #fff;
+        border-radius: 50%;
+        font-weight: 800;
+        font-size: clamp(20px, 3.5vw, 28px);
+        margin-bottom: 0.8rem;
+      }
+
+      .avatar {
+        width: clamp(60px, 10vw, 80px);
+        height: clamp(60px, 10vw, 80px);
+        border-radius: 10%;
+        object-fit: contain;
+        margin-bottom: 0.8rem;
+      }
+
+      .faq-item {
+        background: #fff;
+        border-radius: 12px;
+        padding: clamp(16px, 3vw, 24px);
+        margin-bottom: 1rem;
+        border: 1px solid color-mix(in oklab, var(--fg) 12%, transparent);
+      }
+      .faq-q {
+        font-weight: 700;
+        font-size: clamp(16px, 2.8vw, 18px);
+        margin-bottom: 0.5rem;
+        color: var(--accent);
+      }
+      .faq-a {
+        color: var(--fg);
+        line-height: 1.8;
+      }
+
+      .hero {
+        background: rgba(255, 255, 255, 0.25);
+        backdrop-filter: blur(10px) saturate(180%);
+        -webkit-backdrop-filter: blur(10px) saturate(180%);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        padding: clamp(40px, 8vw, 100px) clamp(20px, 5vw, 60px);
+        text-align: center;
+        border-radius: 25px;
+      }
+      .hero h1 {
+        color: #d32f2f;
+        font-size: clamp(22px, 5.5vw, 56px);
+        line-height: 1.35;
+        padding: 0 10px;
+        margin-bottom: 1rem;
+      }
+      .hero .hero-subheadline {
+        font-size: clamp(16px, 3.5vw, 28px);
+        font-weight: 600;
+        color: #555;
+        margin: 1.2rem auto;
+        max-width: 700px;
+        line-height: 1.6;
+        padding: 0 10px;
+      }
+      .hero .hero-copy {
+        font-size: clamp(14px, 2.8vw, 18px);
+        max-width: 800px;
+        margin: 1.5rem auto 2rem;
+        color: #333;
+        line-height: 1.8;
+        padding: 0 10px;
+      }
+      .hero-image {
+        max-width: 400px;
+        margin: 1.5rem auto;
+      }
+      .close-image {
+        max-width: 400px;
+        margin: 2rem auto;
+      }
+      .close-image img {
+        width: 100%;
+        height: auto;
+      }
+      .pricing-table-title {
+        text-align: center;
+        font-size: clamp(18px, 3.5vw, 24px);
+        color: var(--accent);
+        margin: 2rem 0 1rem;
+        font-weight: 700;
+        position: relative;
+        padding-bottom: 1rem;
+      }
+      .pricing-table-title::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 60px;
+        height: 4px;
+        background: var(--accent);
+        border-radius: 2px;
+      }
+
+      @media (max-width: 640px) {
+        .hero {
+          margin: 0 !important;
+          padding: 30px 15px !important;
+        }
+        .hero-image {
+          max-width: 250px;
+          order: -1;
+          margin: 0 auto 1.5rem;
+        }
+        .hero-content {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+
+      .pricing-table {
+        background: #fff;
+        border-radius: var(--radius);
+        overflow: hidden;
+        border: 2px solid var(--accent);
+      }
+      .pricing-row {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+        gap: 1rem;
+        padding: 1rem;
+        border-bottom: 1px solid color-mix(in oklab, var(--fg) 12%, transparent);
+      }
+      .pricing-row:last-child {
+        border-bottom: none;
+      }
+      .pricing-header {
+        background: var(--accent);
+        color: #fff;
+        font-weight: 700;
+      }
+      .pricing-highlight {
+        font-weight: 700;
+        color: var(--accent);
+      }
+
+      @media (max-width: 640px) {
+        .pricing-table {
+          font-size: 14px;
+        }
+        .pricing-row {
+          grid-template-columns: 1fr;
+          gap: 0.3rem;
+          padding: 0.8rem;
+        }
+        .pricing-row > div {
+          display: grid;
+          grid-template-columns: 120px 1fr;
+          gap: 0.5rem;
+          align-items: center;
+        }
+        .pricing-row > div::before {
+          content: attr(data-label);
+          font-weight: 700;
+        }
+        .pricing-header {
+          display: none;
+        }
+        .pricing-row:not(.pricing-header) {
+          border-bottom: 2px solid color-mix(in oklab, var(--fg) 20%, transparent);
+          margin-bottom: 0.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <section class="hero">
+        <div class="hero-content">
+          <div class="hero-image">
+            <img
+              src="./assets/youtube-kv.png"
+              alt="youtubeの収益に悩む忍者boy"
+              loading="eager"
+              decoding="async"
+            />
+          </div>
+
+          <div>
+            <h1>「規約変更で収益ゼロ」に怯える日々、終わりにしませんか？</h1>
+
+            <p class="hero-subheadline">
+              広告単価は下がり続け、規約変更で一夜にして収入が消える...
+            </p>
+
+            <p class="hero-copy">
+              YouTubeの広告収益だよりにする限り、いつまでも不安は消えません。コメント欄は荒らしだらけ。コアファンとちゃんと繋がりたいのに、フォンのコメントkは埋もれて見つからない。「このままでいいのか？」そう思ったことはありませんか？
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="problems" style="--problems-accent: #1976d2">
+        <h2 class="text-center">こんな悩み、ありませんか？</h2>
+
+        <div class="grid grid-2" style="margin-top: 2rem">
+          <div class="card">
+            <div class="feature-icon">⛔</div>
+
+            <h3>突然の規約変更で収益化停止</h3>
+            <p class="muted">
+              「このジャンルはもう広告つきません」って、急に言われても困る！せっかく育てたチャンネルが台無し…。
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="feature-icon">📉</div>
+
+            <h3>広告単価が下がって収益激減</h3>
+            <p class="muted">
+              去年は1再生0.3円だったのに、今は0.1円…。同じ努力で収入3分の1って、さすがにキツい。
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="feature-icon">😤</div>
+
+            <h3>コメント欄が荒らしで地獄</h3>
+            <p class="muted">
+              応援してくれるファンより、アンチコメントの方が目立つ。ファンとちゃんと交流したいのに、心が折れる。
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="feature-icon">💬</div>
+
+            <h3>大切なファンを見落とす</h3>
+            <p class="muted">
+              1日100件のコメント…リアクションすら返せない。本当に応援してくれる人とちゃんと繋がりたいのに、埋もれて見つからない。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="solution card-secondary">
+        <h2 class="text-center">そんな悩み、すべて解決できます</h2>
+
+        <div style="text-align: center; margin: 2rem auto">
+          <img
+            src="./assets/logo.png"
+            alt=""
+            style="max-width: 400px; width: 80%; height: auto; margin: 0 auto 1.5rem"
+          />
+          <p
+            style="
+              font-size: clamp(18px, 3vw, 24px);
+              color: var(--fg);
+              font-weight: 600;
+              margin-bottom: 3rem;
+            "
+          >
+            自分だけのオンラインサロンで、収益も絆も手に入れる
+          </p>
+        </div>
+
+        <div class="grid grid-2" style="margin-top: 2rem">
+          <div class="card">
+            <div class="feature-icon">🚀</div>
+
+            <h3>規約変更関係なし！</h3>
+            <p class="muted">
+              自分のホームページだから、誰にも止められない。暴露ネタも、キワどいトークも、あなたのルールで堂々と。
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="feature-icon">💰</div>
+
+            <h3>売上の90%があなたのもの</h3>
+            <p class="muted">
+              YouTubeは45%持っていくけど、忍者は10%だけ。月10万円の売上なら、9万円があなたの懐に！
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="feature-icon">🛡️</div>
+
+            <h3>コアファンだけの聖域</h3>
+            <p class="muted">
+              月額500円〜で会員限定。荒らしは入れないから、ファンと心置きなく本音トーク。
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="feature-icon">🤝</div>
+
+            <h3>お金を払ってくれるコアなファンと繋がれる</h3>
+            <p class="muted">
+              「実は最近こんなことあって…」ファンと直接メッセージ。ここだけの特別感で、離脱率激減。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="story card-secondary">
+        <h2 class="text-center">実際、どうやって使うの？</h2>
+
+        <div class="grid" style="margin-top: 2rem; gap: 2rem">
+          <div class="card">
+            <div class="step-number">1</div>
+            <h3>YouTubeで集客、サロンで収益化</h3>
+            <p class="muted">
+              YouTubeの動画概要欄に「続きはサロンで！」とリンク。無料動画でファンを集めて、月額980円の限定サロンに誘導。
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="step-number">2</div>
+            <h3>未公開動画・台本・裏話を投下</h3>
+            <p class="muted">
+              「YouTubeで出せなかったボツネタ」「台本の没案PDF」「撮影の裏側トーク」…ファンが喜ぶコンテンツをどんどん投稿。
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="step-number">3</div>
+            <h3>投げ銭＆限定グッズで追加収益</h3>
+            <p class="muted">
+              「神回でした！」のギフト機能で投げ銭ゲット。限定の「サロン会員証PDF」を買い切り500円で販売。
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="step-number">4</div>
+            <h3>結果：月15万→45万に</h3>
+            <p class="muted">
+              YouTube広告15万円 ＋
+              サロン会員200人×980円＝約35万円。合計50万、手数料引いても45万！しかもファンとの絆は深まる一方。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="features">
+        <h2 class="text-center">忍者ホームページPLUSで使える機能</h2>
+
+        <div class="grid grid-3" style="margin-top: 2rem">
+          <div class="card">
+            <img
+              src="./assets/func/コンテンツ投稿.png"
+              alt="コンテンツ投稿"
+              style="
+                width: 100%;
+                height: auto;
+                max-width: 300px;
+                margin: 0 auto 1rem;
+                display: block;
+              "
+            />
+            <h4
+              style="
+                position: absolute;
+                width: 1px;
+                height: 1px;
+                padding: 0;
+                margin: -1px;
+                overflow: hidden;
+                clip: rect(0, 0, 0, 0);
+                white-space: nowrap;
+                border: 0;
+              "
+            >
+              コンテンツ投稿
+            </h4>
+            <p class="muted">
+              「今日の撮影裏話」「最近ハマってるもの」を自由に投稿。ブログ、画像、動画リンクも。
+            </p>
+          </div>
+
+          <div class="card">
+            <img
+              src="./assets/func/１対１.png"
+              alt="1対1チャット"
+              style="
+                width: 100%;
+                height: auto;
+                max-width: 300px;
+                margin: 0 auto 1rem;
+                display: block;
+              "
+            />
+            <h4
+              style="
+                position: absolute;
+                width: 1px;
+                height: 1px;
+                padding: 0;
+                margin: -1px;
+                overflow: hidden;
+                clip: rect(0, 0, 0, 0);
+                white-space: nowrap;
+                border: 0;
+              "
+            >
+              1対1チャット
+            </h4>
+            <p class="muted">ご不明点はオペレーターに何度でもチャットでお問い合わせが可能</p>
+          </div>
+
+          <div class="card">
+            <img
+              src="./assets/func/サブスク自動決済.png"
+              alt="サブスク自動決済"
+              style="
+                width: 100%;
+                height: auto;
+                max-width: 300px;
+                margin: 0 auto 1rem;
+                display: block;
+              "
+            />
+            <h4
+              style="
+                position: absolute;
+                width: 1px;
+                height: 1px;
+                padding: 0;
+                margin: -1px;
+                overflow: hidden;
+                clip: rect(0, 0, 0, 0);
+                white-space: nowrap;
+                border: 0;
+              "
+            >
+              サブスク自動決済
+            </h4>
+            <p class="muted">月額課金で安定収益。メンバーシップ会員を自動管理。</p>
+          </div>
+
+          <div class="card">
+            <img
+              src="./assets/func/複数プラン作成.png"
+              alt="複数プラン作成"
+              style="
+                width: 100%;
+                height: auto;
+                max-width: 300px;
+                margin: 0 auto 1rem;
+                display: block;
+              "
+            />
+            <h4
+              style="
+                position: absolute;
+                width: 1px;
+                height: 1px;
+                padding: 0;
+                margin: -1px;
+                overflow: hidden;
+                clip: rect(0, 0, 0, 0);
+                white-space: nowrap;
+                border: 0;
+              "
+            >
+              複数プラン作成
+            </h4>
+            <p class="muted">
+              ライト会員980円、プレミアム会員2,980円など、段階的なプランで収益最大化。
+            </p>
+          </div>
+
+          <div class="card">
+            <img
+              src="./assets/func/有料ギフト.png"
+              alt="有料ギフト（投げ銭）"
+              style="
+                width: 100%;
+                height: auto;
+                max-width: 300px;
+                margin: 0 auto 1rem;
+                display: block;
+              "
+            />
+            <h4
+              style="
+                position: absolute;
+                width: 1px;
+                height: 1px;
+                padding: 0;
+                margin: -1px;
+                overflow: hidden;
+                clip: rect(0, 0, 0, 0);
+                white-space: nowrap;
+                border: 0;
+              "
+            >
+              有料ギフト（投げ銭）
+            </h4>
+            <p class="muted">「神回！」の瞬間に、ファンが直接応援。投げ銭で追加収益をゲット。</p>
+          </div>
+
+          <div class="card">
+            <img
+              src="./assets/func/メンバー管理.png"
+              alt="メンバー管理"
+              style="
+                width: 100%;
+                height: auto;
+                max-width: 300px;
+                margin: 0 auto 1rem;
+                display: block;
+              "
+            />
+            <h4
+              style="
+                position: absolute;
+                width: 1px;
+                height: 1px;
+                padding: 0;
+                margin: -1px;
+                overflow: hidden;
+                clip: rect(0, 0, 0, 0);
+                white-space: nowrap;
+                border: 0;
+              "
+            >
+              メンバー管理
+            </h4>
+            <p class="muted">
+              誰が会員で、どのプランに入っているか一目で分かる。コアファンを把握できる。
+            </p>
+          </div>
+
+          <div class="card">
+            <img
+              src="./assets/func/コメント掲示板.png"
+              alt="コメント掲示板"
+              style="
+                width: 100%;
+                height: auto;
+                max-width: 300px;
+                margin: 0 auto 1rem;
+                display: block;
+              "
+            />
+            <h4
+              style="
+                position: absolute;
+                width: 1px;
+                height: 1px;
+                padding: 0;
+                margin: -1px;
+                overflow: hidden;
+                clip: rect(0, 0, 0, 0);
+                white-space: nowrap;
+                border: 0;
+              "
+            >
+              コメント掲示板
+            </h4>
+            <p class="muted">会員限定のコミュニティ。荒らしのいない安全な場所でファンと交流。</p>
+          </div>
+
+          <div class="card">
+            <img
+              src="./assets/func/クレジットカード決済.png"
+              alt="クレジットカード決済"
+              style="
+                width: 100%;
+                height: auto;
+                max-width: 300px;
+                margin: 0 auto 1rem;
+                display: block;
+              "
+            />
+            <h4
+              style="
+                position: absolute;
+                width: 1px;
+                height: 1px;
+                padding: 0;
+                margin: -1px;
+                overflow: hidden;
+                clip: rect(0, 0, 0, 0);
+                white-space: nowrap;
+                border: 0;
+              "
+            >
+              クレジットカード決済
+            </h4>
+            <p class="muted">Stripe連携で簡単決済。売上は自動で振り込まれる。</p>
+          </div>
+
+          <div class="card">
+            <img
+              src="./assets/func/デザイン編集.png"
+              alt="デザイン編集"
+              style="
+                width: 100%;
+                height: auto;
+                max-width: 300px;
+                margin: 0 auto 1rem;
+                display: block;
+              "
+            />
+            <h4
+              style="
+                position: absolute;
+                width: 1px;
+                height: 1px;
+                padding: 0;
+                margin: -1px;
+                overflow: hidden;
+                clip: rect(0, 0, 0, 0);
+                white-space: nowrap;
+                border: 0;
+              "
+            >
+              デザイン編集
+            </h4>
+            <p class="muted">
+              豊富なテンプレートから選んで、自分色にカスタマイズ。コーディング不要。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="pricing card-secondary">
+        <h2 class="text-center">料金は、売れたときだけ。</h2>
+        <p class="text-center muted" style="font-size: 1.1rem; margin-bottom: 2rem">
+          初期費用0円、月額固定費0円。売上から10%だけ。
+        </p>
+
+        <h3 class="pricing-table-title">サブスク会員の場合</h3>
+        <div class="pricing-table" style="max-width: 800px; margin: 0 auto 3rem">
+          <div class="pricing-row pricing-header">
+            <div>販売例</div>
+            <div>売上</div>
+            <div>手数料</div>
+            <div>あなたの利益</div>
+          </div>
+
+          <div class="pricing-row">
+            <div data-label="販売例:">月額980円×100人</div>
+            <div data-label="売上:">98,000円</div>
+            <div data-label="手数料:">9,800円</div>
+            <div class="pricing-highlight" data-label="利益:">88,200円</div>
+          </div>
+
+          <div class="pricing-row">
+            <div data-label="販売例:">月額1,980円×200人</div>
+            <div data-label="売上:">396,000円</div>
+            <div data-label="手数料:">39,600円</div>
+            <div class="pricing-highlight" data-label="利益:">356,400円</div>
+          </div>
+
+          <div class="pricing-row">
+            <div data-label="販売例:">月額3,980円×500人</div>
+            <div data-label="売上:">1,990,000円</div>
+            <div data-label="手数料:">199,000円</div>
+            <div class="pricing-highlight" data-label="利益:">1,791,000円</div>
+          </div>
+        </div>
+
+        <h3 class="pricing-table-title">買い切りコンテンツの場合</h3>
+        <div class="pricing-table" style="max-width: 800px; margin: 0 auto 3rem">
+          <div class="pricing-row pricing-header">
+            <div>販売例</div>
+            <div>売上</div>
+            <div>手数料</div>
+            <div>あなたの利益</div>
+          </div>
+
+          <div class="pricing-row">
+            <div data-label="販売例:">限定動画 500円×200人</div>
+            <div data-label="売上:">100,000円</div>
+            <div data-label="手数料:">10,000円</div>
+            <div class="pricing-highlight" data-label="利益:">90,000円</div>
+          </div>
+
+          <div class="pricing-row">
+            <div data-label="販売例:">台本PDF 1,000円×150人</div>
+            <div data-label="売上:">150,000円</div>
+            <div data-label="手数料:">15,000円</div>
+            <div class="pricing-highlight" data-label="利益:">135,000円</div>
+          </div>
+
+          <div class="pricing-row">
+            <div data-label="販売例:">サイン入り写真 3,000円×50人</div>
+            <div data-label="売上:">150,000円</div>
+            <div data-label="手数料:">15,000円</div>
+            <div class="pricing-highlight" data-label="利益:">135,000円</div>
+          </div>
+        </div>
+
+        <p class="text-center muted" style="font-size: 0.9rem; margin-top: 1.5rem">
+          ※決済手数料（Stripe）は別途3.6%かかります
+        </p>
+      </section>
+
+      <section class="testimonials">
+        <h2 class="text-center">YouTuberの声</h2>
+
+        <div class="grid grid-2" style="margin-top: 2rem">
+          <div class="card">
+            <img
+              src="./assets/ninjaboy/c-ninjaboy-dance.png"
+              alt="ゲーム実況・Tさん"
+              class="avatar"
+            />
+
+            <h4>ゲーム実況・Tさん</h4>
+            <p style="font-style: italic; color: var(--muted)">
+              「メンバーシップと併用してます。YouTubeは「広く浅く」、忍者サロンは「狭く深く」。コアファン50人が月2,000円払ってくれて、10万円の安定収益。最高です。」
+            </p>
+          </div>
+
+          <div class="card">
+            <img src="./assets/robo/c-robo.png" alt="暴露系・Mさん" class="avatar" />
+
+            <h4>暴露系・Mさん</h4>
+            <p style="font-style: italic; color: var(--muted)">
+              「YouTubeで言えないヤバいネタ、全部サロンで出してます。規約？知らん。自分のホームだから自由。会員も「ここでしか聞けない！」って喜んでくれる。」
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq" id="faq">
+        <h2 class="text-center">よくある質問</h2>
+
+        <div style="max-width: 100%; margin: 2rem auto 0">
+          <div class="faq-item">
+            <div class="faq-q">Q. YouTubeのメンバーシップと何が違うの？</div>
+            <div class="faq-a">
+              A.
+              YouTubeメンバーシップは手数料30%、忍者は10%。しかも忍者なら1対1チャット、投げ銭、買い切りコンテンツも全部できます。「YouTubeは入り口、忍者が本丸」って使い方がオススメ。
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-q">Q. ファンを移行させるの、難しくない？</div>
+            <div class="faq-a">
+              A.
+              動画の最後に「続きはサロンで！」って一言入れるだけ。最初は10人でもOK。コアファンが増えれば、月10万は余裕です。
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-q">Q. 規約違反でBANされたりしない？</div>
+            <div class="faq-a">
+              A.
+              忍者ホームページPLUSはあなたの「自分の家」。YouTubeの規約は関係ありません。ただし、法律は守ってね（当たり前だけど）。
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-q">Q. 初期費用はかかる？</div>
+            <div class="faq-a">A. 0円です。売れたときだけ10%。リスクゼロで始められます。</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="close text-center card-secondary">
+        <h2>YouTubeはもう、入り口でいい。</h2>
+
+        <p style="font-size: 1.2rem; font-weight: 500; margin-bottom: 2rem">
+          本当に稼ぐのは、自分のホーム。規約に怯えず、ファンとちゃんと繋がれる場所を持とう。
+        </p>
+
+        <div class="close-image">
+          <img src="./assets/happy-dev.png" alt="幸せな開発者" loading="lazy" decoding="async" />
+        </div>
+
+        <p style="margin: 2rem 0">
+          <a href="https://info.ninja.salon/" class="btn" target="_blank" rel="noopener">
+            無料でオンラインサロンを開設
+          </a>
+        </p>
+      </section>
+    </main>
+    <script>
+      document.addEventListener("click", function (e) {
+        var t = e.target.closest("[data-scrollto]");
+        if (!t) return;
+        var sel = t.getAttribute("data-scrollto");
+        var el = document.querySelector(sel);
+        if (el) {
+          e.preventDefault();
+          el.scrollIntoView({ behavior: "smooth" });
+        }
+      });
+
+      // Intersection Observer for scroll animations
+      var observer = new IntersectionObserver(
+        function (entries) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+              entry.target.style.animation = "fadeInUp 0.8s ease-out forwards";
+              observer.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.1 },
+      );
+
+      document.querySelectorAll("section").forEach(function (section, index) {
+        section.style.opacity = "0";
+        section.style.animationDelay = index * 0.1 + "s";
+        observer.observe(section);
+      });
+    </script>
+  </body>
+</html>
